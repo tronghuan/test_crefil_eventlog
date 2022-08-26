@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_uSPBgBbqEe2nUJjx_L-uyw" id="_uSOacBbqEe2nUJjx_L-uyw" label="JavaException" version="0.1" statusCode="" item="_uSPBghbqEe2nUJjx_L-uyw" displayName="JavaException">
+    <author href="../talend.project#_-gQMcBbjEe2nUJjx_L-uyw"/>
+    <additionalProperties xmi:id="_uSPokBbqEe2nUJjx_L-uyw" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_uSPokRbqEe2nUJjx_L-uyw" key="created_product_version" value="8.0.1.20211109_1610"/>
+    <additionalProperties xmi:id="_uSPokhbqEe2nUJjx_L-uyw" key="created_date" value="2022-08-08T14:21:30.265+0700"/>
+    <additionalProperties xmi:id="_uSPokxbqEe2nUJjx_L-uyw" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_uSPolBbqEe2nUJjx_L-uyw" key="modified_product_version" value="8.0.1.20211109_1610"/>
+    <additionalProperties xmi:id="_uSPolRbqEe2nUJjx_L-uyw" key="modified_date" value="2022-08-08T14:21:30.305+0700"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_uSPBgRbqEe2nUJjx_L-uyw" path=""/>
+  <TalendProperties:ProcessItem xmi:id="_uSPBghbqEe2nUJjx_L-uyw" property="_uSPBgBbqEe2nUJjx_L-uyw" state="_uSPBgRbqEe2nUJjx_L-uyw">
+    <process href="JavaException_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

@@ -1,0 +1,904 @@
+!SESSION 2022-08-08 13:32:32.412 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.15.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data file:/C:/Users/dthbk/OneDrive/Desktop/Talend_Workspace/
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2022-08-08 13:32:33.019
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [19]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1849)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1842)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1747)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2022-08-08 13:32:33.021
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1849)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1842)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1747)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1669)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-08-08 13:32:33.712
+!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'http://www.talend.org/component_cache'
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:32:34.084
+!MESSAGE 2022-08-08 13:32:34,081 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Program Files (x86)\TOS_DI-8.0.1\studio\configuration\studio.keys
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:32:34.149
+!MESSAGE 2022-08-08 13:32:34,149 INFO  org.talend.rcp.intro.Application  - 
+!!------------------------------------------------------------------------!!
+!!                                                                        !!
+!!                                 TALEND                                 !!
+!!   Starting Talend's platform log system.VERSION= 8.0.1.20211109_1610   !!
+!!                                                                        !!
+!!------------------------------------------------------------------------!!
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:32:34.279
+!MESSAGE 2022-08-08 13:32:34,279 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into http.nonProxyHosts: [localhost, 0:0:0:0:0:0:0:1, 127.0.0.1]
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:32:34.280
+!MESSAGE 2022-08-08 13:32:34,279 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into https.nonProxyHosts: [localhost, 0:0:0:0:0:0:0:1, 127.0.0.1]
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:33:13.020
+!MESSAGE 2022-08-08 13:33:13,019 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-tck, version=8.0.1.20211103_1602, classifier=null, type=pom, componentType=0] was already installed
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:33:13.021
+!MESSAGE 2022-08-08 13:33:13,020 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-tcksdk, version=8.0.1.20211103_1602, classifier=null, type=pom, componentType=0] was already installed
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:33:13.022
+!MESSAGE 2022-08-08 13:33:13,021 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-tcompv0, version=8.0.1.20211103_1602, classifier=null, type=pom, componentType=0] was already installed
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:33:13.264
+!MESSAGE 2022-08-08 13:33:13,263 INFO  org.talend.sdk.component.studio.ProcessManager  - Local addresses passed to sdk: [127.0.0.1, [0:0:0:0:0:0:0:1]]
+
+
+!ENTRY org.talend.platform.logging 2 0 2022-08-08 13:33:14.583
+!MESSAGE 2022-08-08 13:33:14,582 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:33:14.992
+!MESSAGE 2022-08-08 13:33:14,991 INFO  org.talend.sdk.component.studio.ProcessManager  - Succeed to connect [http://127.0.0.1:58723/api/v1/environment]
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:33:15.403
+!MESSAGE 2022-08-08 13:33:15,403 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com logged on crefil-eventlogs
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:33:16.372
+!MESSAGE 2022-08-08 13:33:16,371 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:33:16.841
+!MESSAGE 2022-08-08 13:33:16,840 INFO  org.talend.designer.codegen.components.model.ComponentsLoader  - allSet size: 573, total: 573
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:33:17.030
+!MESSAGE 2022-08-08 13:33:17,029 INFO  org.talend.designer.codegen.components.model.ComponentsFactory  - 640 components loaded in 252 ms
+
+
+!ENTRY org.talend.platform.logging 2 0 2022-08-08 13:33:17.140
+!MESSAGE 2022-08-08 13:33:17,139 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: TEZ-SERVER-LIB-HDP220
+
+
+!ENTRY org.talend.platform.logging 2 0 2022-08-08 13:33:17.140
+!MESSAGE 2022-08-08 13:33:17,140 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: TEZ-SERVER-LIB-HDP_2_3
+
+
+!ENTRY org.talend.platform.logging 2 0 2022-08-08 13:33:17.208
+!MESSAGE 2022-08-08 13:33:17,208 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: TEZ-SERVER-LIB-HDP220
+
+
+!ENTRY org.talend.platform.logging 2 0 2022-08-08 13:33:17.209
+!MESSAGE 2022-08-08 13:33:17,209 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: TEZ-SERVER-LIB-HDP_2_3
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:33:17.607
+!MESSAGE 2022-08-08 13:33:17,607 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Users\dthbk\OneDrive\Desktop\Talend_Workspace\CREFIL_EVENTLOGS\poms
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:33:17.610
+!MESSAGE 2022-08-08 13:33:17,610 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s "C:\Program Files (x86)\TOS_DI-8.0.1\studio\configuration\maven_user_settings.xml" install -llr -N -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:33:22.124
+!MESSAGE 2022-08-08 13:33:22,123 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:33:22.878
+!MESSAGE 2022-08-08 13:33:22,878 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREFIL_EVENTLOGS_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:33:22.888
+!MESSAGE 2022-08-08 13:33:22,879 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /CREFIL_EVENTLOGS_ROUTINES/src/main/java overlaps with sources folder /CREFIL_EVENTLOGS_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:33:22.898
+!MESSAGE 2022-08-08 13:33:22,898 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREFIL_EVENTLOGS_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:33:22.898
+!MESSAGE 2022-08-08 13:33:22,898 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREFIL_EVENTLOGS_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:33:23.021
+!MESSAGE 2022-08-08 13:33:23,021 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:33:24.028
+!MESSAGE 2022-08-08 13:33:24,028 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Users\dthbk\OneDrive\Desktop\Talend_Workspace\CREFIL_EVENTLOGS\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:33:24.030
+!MESSAGE 2022-08-08 13:33:24,029 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s "C:\Program Files (x86)\TOS_DI-8.0.1\studio\configuration\maven_user_settings.xml" install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:33:28.030
+!MESSAGE 2022-08-08 13:33:28,030 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:33:28.111
+!MESSAGE 2022-08-08 13:33:28,111 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREFIL_EVENTLOGS_ROUTINES: org.example.crefil_eventlogs.code:routines:8.0.1 with classifier  to /CREFIL_EVENTLOGS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:33:28.200
+!MESSAGE 2022-08-08 13:33:28,199 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREFIL_EVENTLOGS_BEANS/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:33:28.200
+!MESSAGE 2022-08-08 13:33:28,200 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /CREFIL_EVENTLOGS_BEANS/src/main/java overlaps with sources folder /CREFIL_EVENTLOGS_BEANS/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:33:28.204
+!MESSAGE 2022-08-08 13:33:28,204 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREFIL_EVENTLOGS_BEANS/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:33:28.205
+!MESSAGE 2022-08-08 13:33:28,205 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREFIL_EVENTLOGS_BEANS/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:33:28.290
+!MESSAGE 2022-08-08 13:33:28,290 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:33:28.868
+!MESSAGE 2022-08-08 13:33:28,868 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREFIL_EVENTLOGS_ROUTINES: org.example.crefil_eventlogs.code:routines:8.0.1 with classifier  to /CREFIL_EVENTLOGS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:33:28.885
+!MESSAGE 2022-08-08 13:33:28,885 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\Users\dthbk\OneDrive\Desktop\Talend_Workspace\CREFIL_EVENTLOGS\poms\code\beans
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:33:28.886
+!MESSAGE 2022-08-08 13:33:28,886 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s "C:\Program Files (x86)\TOS_DI-8.0.1\studio\configuration\maven_user_settings.xml" install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:34:01.558
+!MESSAGE 2022-08-08 13:34:01,556 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREFIL_EVENTLOGS_ROUTINES: org.example.crefil_eventlogs.code:routines:8.0.1 with classifier  to /CREFIL_EVENTLOGS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:34:01.689
+!MESSAGE 2022-08-08 13:34:01,689 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:34:01.690
+!MESSAGE 2022-08-08 13:34:01,690 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:34:01.699
+!MESSAGE 2022-08-08 13:34:01,699 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:34:01.700
+!MESSAGE 2022-08-08 13:34:01,700 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:52:47.465
+!MESSAGE 2022-08-08 13:52:47,464 INFO  org.talend.designer.runprocess.maven.MavenJavaProcessor  - build, threadParam: -T 1C
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:52:47.468
+!MESSAGE 2022-08-08 13:52:47,467 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:52:47.566
+!MESSAGE 2022-08-08 13:52:47,565 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREFIL_EVENTLOGS_ROUTINES: org.example.crefil_eventlogs.code:routines:8.0.1 with classifier  to /CREFIL_EVENTLOGS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:52:47.676
+!MESSAGE 2022-08-08 13:52:47,676 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:52:47.677
+!MESSAGE 2022-08-08 13:52:47,676 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:52:47.678
+!MESSAGE 2022-08-08 13:52:47,678 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:52:47.678
+!MESSAGE 2022-08-08 13:52:47,678 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:52:47.745
+!MESSAGE 2022-08-08 13:52:47,745 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:52:48.373
+!MESSAGE 2022-08-08 13:52:48,372 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREFIL_EVENTLOGS_ROUTINES: org.example.crefil_eventlogs.code:routines:8.0.1 with classifier  to /CREFIL_EVENTLOGS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:52:48.651
+!MESSAGE 2022-08-08 13:52:48,651 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jdk-11.0.15.1/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -Dtalend.component.manager.m2.repository=C:/Program Files (x86)/TOS_DI-8.0.1/studio/configuration/.m2/repository -Dencryption.keys.file=/C:/Program Files (x86)/TOS_DI-8.0.1/studio/configuration/studio.keys -cp C:/Users/dthbk/OneDrive/Desktop/Talend_Workspace/CREFIL_EVENTLOGS/poms/jobs/process/jobassertion_1.0/target/classpath.jar; crefil_eventlogs.jobassertion_1_0.JobAssertion --context=Default --stat_port=3880 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:55:25.890
+!MESSAGE 2022-08-08 13:55:25,889 INFO  org.talend.designer.runprocess.maven.MavenJavaProcessor  - build, threadParam: -T 1C
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:55:25.893
+!MESSAGE 2022-08-08 13:55:25,893 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:55:25.959
+!MESSAGE 2022-08-08 13:55:25,958 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREFIL_EVENTLOGS_ROUTINES: org.example.crefil_eventlogs.code:routines:8.0.1 with classifier  to /CREFIL_EVENTLOGS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:55:26.030
+!MESSAGE 2022-08-08 13:55:26,030 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:55:26.031
+!MESSAGE 2022-08-08 13:55:26,030 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:55:26.033
+!MESSAGE 2022-08-08 13:55:26,033 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:55:26.033
+!MESSAGE 2022-08-08 13:55:26,033 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:55:26.089
+!MESSAGE 2022-08-08 13:55:26,088 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:55:26.663
+!MESSAGE 2022-08-08 13:55:26,663 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREFIL_EVENTLOGS_ROUTINES: org.example.crefil_eventlogs.code:routines:8.0.1 with classifier  to /CREFIL_EVENTLOGS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:55:26.824
+!MESSAGE 2022-08-08 13:55:26,823 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jdk-11.0.15.1/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -Dtalend.component.manager.m2.repository=C:/Program Files (x86)/TOS_DI-8.0.1/studio/configuration/.m2/repository -Dencryption.keys.file=/C:/Program Files (x86)/TOS_DI-8.0.1/studio/configuration/studio.keys -cp C:/Users/dthbk/OneDrive/Desktop/Talend_Workspace/CREFIL_EVENTLOGS/poms/jobs/process/jobassertion_1.0/target/classpath.jar; crefil_eventlogs.jobassertion_1_0.JobAssertion --context=Default --stat_port=3921 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:59:48.257
+!MESSAGE 2022-08-08 13:59:48,257 INFO  org.talend.designer.runprocess.maven.MavenJavaProcessor  - build, threadParam: -T 1C
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:59:48.260
+!MESSAGE 2022-08-08 13:59:48,260 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:59:48.328
+!MESSAGE 2022-08-08 13:59:48,328 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREFIL_EVENTLOGS_ROUTINES: org.example.crefil_eventlogs.code:routines:8.0.1 with classifier  to /CREFIL_EVENTLOGS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:59:48.479
+!MESSAGE 2022-08-08 13:59:48,479 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:59:48.480
+!MESSAGE 2022-08-08 13:59:48,479 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:59:48.483
+!MESSAGE 2022-08-08 13:59:48,483 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:59:48.483
+!MESSAGE 2022-08-08 13:59:48,483 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:59:48.531
+!MESSAGE 2022-08-08 13:59:48,530 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 13:59:48.944
+!MESSAGE 2022-08-08 13:59:48,943 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREFIL_EVENTLOGS_ROUTINES: org.example.crefil_eventlogs.code:routines:8.0.1 with classifier  to /CREFIL_EVENTLOGS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2022-08-08 13:59:48.966
+!MESSAGE 2022-08-08 13:59:48,966 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "JobAssertion" has a compile errors, please fix and export again.
+Error Line: 2667
+Detail Message: ColumnA cannot be resolved or is not a field
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "JobAssertion" has a compile errors, please fix and export again.
+Error Line: 2667
+Detail Message: ColumnA cannot be resolved or is not a field
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:359)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:534)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:318)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:826)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:706)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2029)
+	at org.talend.designer.runprocess.RunProcessContext$2.run(RunProcessContext.java:663)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:436)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:468)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:228)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:984)
+	at org.talend.designer.runprocess.RunProcessContext.exec(RunProcessContext.java:610)
+	at org.talend.designer.runprocess.ui.ProcessComposite.exec(ProcessComposite.java:1447)
+	at org.talend.designer.runprocess.ui.views.ProcessView$RunAction.run(ProcessView.java:736)
+	at org.talend.designer.runprocess.ui.actions.RunProcessAction.run(RunProcessAction.java:63)
+	at org.talend.designer.core.debug.JobLaunchConfigurationDelegate$1$1.run(JobLaunchConfigurationDelegate.java:98)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.talend.rcp.intro.Application.start(Application.java:303)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:00:44.424
+!MESSAGE 2022-08-08 14:00:44,422 INFO  org.talend.designer.runprocess.maven.MavenJavaProcessor  - build, threadParam: -T 1C
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:00:44.426
+!MESSAGE 2022-08-08 14:00:44,426 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:00:44.509
+!MESSAGE 2022-08-08 14:00:44,508 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREFIL_EVENTLOGS_ROUTINES: org.example.crefil_eventlogs.code:routines:8.0.1 with classifier  to /CREFIL_EVENTLOGS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:00:44.587
+!MESSAGE 2022-08-08 14:00:44,587 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:00:44.588
+!MESSAGE 2022-08-08 14:00:44,587 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:00:44.590
+!MESSAGE 2022-08-08 14:00:44,589 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:00:44.590
+!MESSAGE 2022-08-08 14:00:44,590 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:00:44.638
+!MESSAGE 2022-08-08 14:00:44,638 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:00:45.060
+!MESSAGE 2022-08-08 14:00:45,060 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREFIL_EVENTLOGS_ROUTINES: org.example.crefil_eventlogs.code:routines:8.0.1 with classifier  to /CREFIL_EVENTLOGS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2022-08-08 14:00:45.073
+!MESSAGE 2022-08-08 14:00:45,073 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "JobAssertion" has a compile errors, please fix and export again.
+Error Line: 2667
+Detail Message: ColumnA cannot be resolved or is not a field
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "JobAssertion" has a compile errors, please fix and export again.
+Error Line: 2667
+Detail Message: ColumnA cannot be resolved or is not a field
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:359)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:534)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:318)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:826)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:706)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2029)
+	at org.talend.designer.runprocess.RunProcessContext$2.run(RunProcessContext.java:663)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:436)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:468)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:228)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:984)
+	at org.talend.designer.runprocess.RunProcessContext.exec(RunProcessContext.java:610)
+	at org.talend.designer.runprocess.ui.ProcessComposite.exec(ProcessComposite.java:1447)
+	at org.talend.designer.runprocess.ui.views.ProcessView$RunAction.run(ProcessView.java:736)
+	at org.talend.designer.runprocess.ui.actions.RunProcessAction.run(RunProcessAction.java:63)
+	at org.talend.designer.core.debug.JobLaunchConfigurationDelegate$1$1.run(JobLaunchConfigurationDelegate.java:98)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.talend.rcp.intro.Application.start(Application.java:303)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:03:28.617
+!MESSAGE 2022-08-08 14:03:28,617 INFO  org.talend.designer.runprocess.maven.MavenJavaProcessor  - build, threadParam: -T 1C
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:03:28.620
+!MESSAGE 2022-08-08 14:03:28,619 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:03:28.680
+!MESSAGE 2022-08-08 14:03:28,680 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREFIL_EVENTLOGS_ROUTINES: org.example.crefil_eventlogs.code:routines:8.0.1 with classifier  to /CREFIL_EVENTLOGS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:03:28.766
+!MESSAGE 2022-08-08 14:03:28,766 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:03:28.767
+!MESSAGE 2022-08-08 14:03:28,767 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:03:28.768
+!MESSAGE 2022-08-08 14:03:28,768 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:03:28.769
+!MESSAGE 2022-08-08 14:03:28,768 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:03:28.825
+!MESSAGE 2022-08-08 14:03:28,824 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:03:29.205
+!MESSAGE 2022-08-08 14:03:29,205 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREFIL_EVENTLOGS_ROUTINES: org.example.crefil_eventlogs.code:routines:8.0.1 with classifier  to /CREFIL_EVENTLOGS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2022-08-08 14:03:29.220
+!MESSAGE 2022-08-08 14:03:29,220 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "JobAssertion" has a compile errors, please fix and export again.
+Error Line: 2667
+Detail Message: ColumnA cannot be resolved or is not a field
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "JobAssertion" has a compile errors, please fix and export again.
+Error Line: 2667
+Detail Message: ColumnA cannot be resolved or is not a field
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:359)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:534)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:318)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:826)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:706)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2029)
+	at org.talend.designer.runprocess.RunProcessContext$2.run(RunProcessContext.java:663)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:436)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:468)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:228)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:984)
+	at org.talend.designer.runprocess.RunProcessContext.exec(RunProcessContext.java:610)
+	at org.talend.designer.runprocess.ui.ProcessComposite.exec(ProcessComposite.java:1447)
+	at org.talend.designer.runprocess.ui.views.ProcessView$RunAction.run(ProcessView.java:736)
+	at org.talend.designer.runprocess.ui.actions.RunProcessAction.run(RunProcessAction.java:63)
+	at org.talend.designer.core.debug.JobLaunchConfigurationDelegate$1$1.run(JobLaunchConfigurationDelegate.java:98)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.talend.rcp.intro.Application.start(Application.java:303)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:07:41.140
+!MESSAGE 2022-08-08 14:07:41,140 INFO  org.talend.designer.runprocess.maven.MavenJavaProcessor  - build, threadParam: -T 1C
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:07:41.143
+!MESSAGE 2022-08-08 14:07:41,142 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:07:41.215
+!MESSAGE 2022-08-08 14:07:41,215 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREFIL_EVENTLOGS_ROUTINES: org.example.crefil_eventlogs.code:routines:8.0.1 with classifier  to /CREFIL_EVENTLOGS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:07:41.287
+!MESSAGE 2022-08-08 14:07:41,287 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:07:41.288
+!MESSAGE 2022-08-08 14:07:41,288 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:07:41.289
+!MESSAGE 2022-08-08 14:07:41,289 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:07:41.289
+!MESSAGE 2022-08-08 14:07:41,289 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:07:41.337
+!MESSAGE 2022-08-08 14:07:41,337 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:07:41.730
+!MESSAGE 2022-08-08 14:07:41,730 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREFIL_EVENTLOGS_ROUTINES: org.example.crefil_eventlogs.code:routines:8.0.1 with classifier  to /CREFIL_EVENTLOGS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2022-08-08 14:07:41.746
+!MESSAGE 2022-08-08 14:07:41,745 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "JobAssertion" has a compile errors, please fix and export again.
+Error Line: 2667
+Detail Message: ColumnA cannot be resolved or is not a field
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "JobAssertion" has a compile errors, please fix and export again.
+Error Line: 2667
+Detail Message: ColumnA cannot be resolved or is not a field
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:359)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:534)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:318)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:826)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:706)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2029)
+	at org.talend.designer.runprocess.RunProcessContext$2.run(RunProcessContext.java:663)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:436)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:468)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:228)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:984)
+	at org.talend.designer.runprocess.RunProcessContext.exec(RunProcessContext.java:610)
+	at org.talend.designer.runprocess.ui.ProcessComposite.exec(ProcessComposite.java:1447)
+	at org.talend.designer.runprocess.ui.views.ProcessView$RunAction.run(ProcessView.java:736)
+	at org.talend.designer.runprocess.ui.actions.RunProcessAction.run(RunProcessAction.java:63)
+	at org.talend.designer.core.debug.JobLaunchConfigurationDelegate$1$1.run(JobLaunchConfigurationDelegate.java:98)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.talend.rcp.intro.Application.start(Application.java:303)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:08:11.084
+!MESSAGE 2022-08-08 14:08:11,083 INFO  org.talend.designer.runprocess.maven.MavenJavaProcessor  - build, threadParam: -T 1C
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:08:11.086
+!MESSAGE 2022-08-08 14:08:11,086 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:08:11.141
+!MESSAGE 2022-08-08 14:08:11,141 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREFIL_EVENTLOGS_ROUTINES: org.example.crefil_eventlogs.code:routines:8.0.1 with classifier  to /CREFIL_EVENTLOGS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:08:11.229
+!MESSAGE 2022-08-08 14:08:11,229 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:08:11.230
+!MESSAGE 2022-08-08 14:08:11,229 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:08:11.231
+!MESSAGE 2022-08-08 14:08:11,230 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:08:11.231
+!MESSAGE 2022-08-08 14:08:11,231 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:08:11.280
+!MESSAGE 2022-08-08 14:08:11,280 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:08:11.681
+!MESSAGE 2022-08-08 14:08:11,680 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREFIL_EVENTLOGS_ROUTINES: org.example.crefil_eventlogs.code:routines:8.0.1 with classifier  to /CREFIL_EVENTLOGS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 4 0 2022-08-08 14:08:11.699
+!MESSAGE 2022-08-08 14:08:11,698 ERROR org.talend.commons.exception.CommonExceptionHandler  - Job compile errors 
+At least job "JobAssertion" has a compile errors, please fix and export again.
+Error Line: 2667
+Detail Message: ColumnA cannot be resolved or is not a field
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+
+!STACK 0
+org.talend.designer.runprocess.ProcessorException: Job compile errors 
+At least job "JobAssertion" has a compile errors, please fix and export again.
+Error Line: 2667
+Detail Message: ColumnA cannot be resolved or is not a field
+There may be some other errors caused by JVM compatibility. Make sure your JVM setup is similar to the studio.
+	at org.talend.designer.runprocess.JobErrorsChecker.checkLastGenerationHasCompilationError(JobErrorsChecker.java:359)
+	at org.talend.designer.runprocess.DefaultRunProcessService.checkLastGenerationHasCompilationError(DefaultRunProcessService.java:534)
+	at org.talend.designer.runprocess.RunProcessService.checkLastGenerationHasCompilationError(RunProcessService.java:318)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateBuildInfo(ProcessorUtilities.java:826)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:706)
+	at org.talend.designer.runprocess.ProcessorUtilities.generateCode(ProcessorUtilities.java:2029)
+	at org.talend.designer.runprocess.RunProcessContext$2.run(RunProcessContext.java:663)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:436)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:468)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:228)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:984)
+	at org.talend.designer.runprocess.RunProcessContext.exec(RunProcessContext.java:610)
+	at org.talend.designer.runprocess.ui.ProcessComposite.exec(ProcessComposite.java:1447)
+	at org.talend.designer.runprocess.ui.views.ProcessView$RunAction.run(ProcessView.java:736)
+	at org.talend.designer.runprocess.ui.actions.RunProcessAction.run(RunProcessAction.java:63)
+	at org.talend.designer.core.debug.JobLaunchConfigurationDelegate$1$1.run(JobLaunchConfigurationDelegate.java:98)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.talend.rcp.intro.Application.start(Application.java:303)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:09:17.268
+!MESSAGE 2022-08-08 14:09:17,268 INFO  org.talend.designer.runprocess.maven.MavenJavaProcessor  - build, threadParam: -T 1C
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:09:17.270
+!MESSAGE 2022-08-08 14:09:17,270 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:09:17.337
+!MESSAGE 2022-08-08 14:09:17,337 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREFIL_EVENTLOGS_ROUTINES: org.example.crefil_eventlogs.code:routines:8.0.1 with classifier  to /CREFIL_EVENTLOGS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:09:17.422
+!MESSAGE 2022-08-08 14:09:17,422 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:09:17.423
+!MESSAGE 2022-08-08 14:09:17,423 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:09:17.424
+!MESSAGE 2022-08-08 14:09:17,424 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:09:17.425
+!MESSAGE 2022-08-08 14:09:17,425 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:09:17.474
+!MESSAGE 2022-08-08 14:09:17,473 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:09:17.847
+!MESSAGE 2022-08-08 14:09:17,846 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREFIL_EVENTLOGS_ROUTINES: org.example.crefil_eventlogs.code:routines:8.0.1 with classifier  to /CREFIL_EVENTLOGS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:09:18.013
+!MESSAGE 2022-08-08 14:09:18,013 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jdk-11.0.15.1/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -Dtalend.component.manager.m2.repository=C:/Program Files (x86)/TOS_DI-8.0.1/studio/configuration/.m2/repository -Dencryption.keys.file=/C:/Program Files (x86)/TOS_DI-8.0.1/studio/configuration/studio.keys -cp C:/Users/dthbk/OneDrive/Desktop/Talend_Workspace/CREFIL_EVENTLOGS/poms/jobs/process/jobassertion_1.0/target/classpath.jar; crefil_eventlogs.jobassertion_1_0.JobAssertion --context=Default --stat_port=3805 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:09:47.052
+!MESSAGE 2022-08-08 14:09:47,052 INFO  org.talend.designer.runprocess.maven.MavenJavaProcessor  - build, threadParam: -T 1C
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:09:47.055
+!MESSAGE 2022-08-08 14:09:47,055 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:09:47.117
+!MESSAGE 2022-08-08 14:09:47,116 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREFIL_EVENTLOGS_ROUTINES: org.example.crefil_eventlogs.code:routines:8.0.1 with classifier  to /CREFIL_EVENTLOGS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:09:47.177
+!MESSAGE 2022-08-08 14:09:47,177 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:09:47.177
+!MESSAGE 2022-08-08 14:09:47,177 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:09:47.179
+!MESSAGE 2022-08-08 14:09:47,179 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:09:47.180
+!MESSAGE 2022-08-08 14:09:47,180 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:09:47.225
+!MESSAGE 2022-08-08 14:09:47,224 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:09:47.655
+!MESSAGE 2022-08-08 14:09:47,655 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREFIL_EVENTLOGS_ROUTINES: org.example.crefil_eventlogs.code:routines:8.0.1 with classifier  to /CREFIL_EVENTLOGS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:09:47.806
+!MESSAGE 2022-08-08 14:09:47,806 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jdk-11.0.15.1/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -Dtalend.component.manager.m2.repository=C:/Program Files (x86)/TOS_DI-8.0.1/studio/configuration/.m2/repository -Dencryption.keys.file=/C:/Program Files (x86)/TOS_DI-8.0.1/studio/configuration/studio.keys -cp C:/Users/dthbk/OneDrive/Desktop/Talend_Workspace/CREFIL_EVENTLOGS/poms/jobs/process/jobassertion_1.0/target/classpath.jar; crefil_eventlogs.jobassertion_1_0.JobAssertion --context=Default --stat_port=3475 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:10:43.478
+!MESSAGE 2022-08-08 14:10:43,477 INFO  org.talend.designer.runprocess.maven.MavenJavaProcessor  - build, threadParam: -T 1C
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:10:43.480
+!MESSAGE 2022-08-08 14:10:43,479 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:10:43.531
+!MESSAGE 2022-08-08 14:10:43,531 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREFIL_EVENTLOGS_ROUTINES: org.example.crefil_eventlogs.code:routines:8.0.1 with classifier  to /CREFIL_EVENTLOGS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:10:43.614
+!MESSAGE 2022-08-08 14:10:43,614 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:10:43.615
+!MESSAGE 2022-08-08 14:10:43,614 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:10:43.616
+!MESSAGE 2022-08-08 14:10:43,616 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:10:43.616
+!MESSAGE 2022-08-08 14:10:43,616 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREFIL_EVENTLOGS_JOBASSERTION_1.0/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:10:43.666
+!MESSAGE 2022-08-08 14:10:43,666 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:10:44.028
+!MESSAGE 2022-08-08 14:10:44,027 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREFIL_EVENTLOGS_ROUTINES: org.example.crefil_eventlogs.code:routines:8.0.1 with classifier  to /CREFIL_EVENTLOGS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:10:44.181
+!MESSAGE 2022-08-08 14:10:44,181 INFO  org.talend.designer.core.runprocess.Processor  - Command line: C:/Program Files/Java/jdk-11.0.15.1/bin/java.exe -Xms256M -Xmx1024M -Dfile.encoding=UTF-8 -Dtalend.component.manager.m2.repository=C:/Program Files (x86)/TOS_DI-8.0.1/studio/configuration/.m2/repository -Dencryption.keys.file=/C:/Program Files (x86)/TOS_DI-8.0.1/studio/configuration/studio.keys -cp C:/Users/dthbk/OneDrive/Desktop/Talend_Workspace/CREFIL_EVENTLOGS/poms/jobs/process/jobassertion_1.0/target/classpath.jar; crefil_eventlogs.jobassertion_1_0.JobAssertion --context=Default --stat_port=3920 %*
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:21:30.480
+!MESSAGE 2022-08-08 14:21:30,480 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/CREFIL_EVENTLOGS_ROUTINES: org.example.crefil_eventlogs.code:routines:8.0.1 with classifier  to /CREFIL_EVENTLOGS_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:21:30.527
+!MESSAGE 2022-08-08 14:21:30,527 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREFIL_EVENTLOGS_JAVAEXCEPTION_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:21:30.528
+!MESSAGE 2022-08-08 14:21:30,527 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREFIL_EVENTLOGS_JAVAEXCEPTION_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:21:30.532
+!MESSAGE 2022-08-08 14:21:30,531 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /CREFIL_EVENTLOGS_JAVAEXCEPTION_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2022-08-08 14:21:30.532
+!MESSAGE 2022-08-08 14:21:30,532 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /CREFIL_EVENTLOGS_JAVAEXCEPTION_0.1/src/test/resources
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-08-08 16:34:22.583
+!MESSAGE The workspace will exit with unsaved changes in this session.
